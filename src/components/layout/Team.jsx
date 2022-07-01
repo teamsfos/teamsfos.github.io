@@ -10,7 +10,7 @@ import rezaAriqLuthfiandiImage from '../../images/reza-ariq-luthfiandi.svg';
 
 function MemberCard({ name, quote, title, figure, instagram }) {
   return (
-    <div className="mb-20 w-full cursor-pointer rounded-xl border bg-base-100 p-4 transition hover:-translate-y-1 hover:shadow-md lg:w-5/12">
+    <div className="w-full cursor-pointer rounded-xl border bg-base-100 p-4 transition hover:-translate-y-1 hover:shadow-md lg:w-5/12">
       <div className="flex h-full flex-col items-center justify-center text-center sm:flex-row sm:justify-start sm:text-left">
         <img
           alt={name}
@@ -37,7 +37,7 @@ function MemberCard({ name, quote, title, figure, instagram }) {
 export default function Team() {
   return (
     <section id="team">
-      <div className="container pt-16">
+      <div className="container mb-20 pt-16">
         <SectionHeader
           title="Our team"
           desc="these are great people on this team, they each have their own skills."
