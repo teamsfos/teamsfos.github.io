@@ -21,7 +21,7 @@ export default function Header() {
         </div>
         <div className="navbar-end">
           <button
-            className={`btn swap btn-primary btn-circle swap-rotate md:hidden ${
+            className={`swap-rotate btn swap btn-primary btn-circle md:hidden ${
               swap ? 'swap-active' : ''
             }`}
             onClick={() => setSwap(!swap)}
@@ -30,7 +30,7 @@ export default function Header() {
             <CgClose className="swap-on" size={24} />
           </button>
           <ul
-            className={`menu rounded-box menu-compact absolute -bottom-32 bg-base-100 p-2 shadow-md transition-all duration-500 md:menu-horizontal md:static md:gap-x-2 md:bg-transparent md:p-0 md:shadow-none [&>li>a]:rounded [&>li>a]:uppercase ${
+            className={`menu rounded-box menu-compact absolute -bottom-36 gap-2 bg-base-100 p-2 shadow-md transition-all duration-500 md:menu-horizontal md:static md:bg-transparent md:p-0 md:shadow-none [&>li>a]:rounded [&>li>a]:uppercase ${
               swap ? 'right-4' : '-right-36'
             } `}
           >
