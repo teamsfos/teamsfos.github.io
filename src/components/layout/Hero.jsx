@@ -23,7 +23,7 @@ export default function Hero() {
         </div>
         <div className="prose flex-1 prose-h1:mb-3 prose-h1:leading-tight lg:prose-xl">
           <h1 className="mb-4">
-            Hello, Welcome to Official website of SFOS Team
+            Hello, Welcome to Official website of Team SFOS
           </h1>
           <p className="mt-4">
             A team formed a long time ago that aims to have fun and to learn
